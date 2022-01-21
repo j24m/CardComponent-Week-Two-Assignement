@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing :border-box;
+
+}
+:root{
+ font-size: 10px;
+}
+.container{
+    margin: 40px;
+    border: 2px solid gray;
+    display:flex;
+    flex-direction: column;
+    width:400px;
+    box-shadow: 2px 2px 20px 1px mediumpurple;
+}
+
+.image img{
+    width : 100%;
+    height : auto;
+    height:200px;
+}
+
+h1{
+ font-size : 22px;
+ margin-bottom: 4px;  
+}
+h2{
+    font-size : 18px;
+}
+p{
+    margin : 1rem 0;
+    color: gray;
+}
+.share{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+i{
+    color: gray;
+}
+a,i{
+    margin-bottom: 10px;
+}
+
+
+
+
