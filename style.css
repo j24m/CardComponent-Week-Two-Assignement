@@ -1,52 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin:0;
-    padding: 0;
-    box-sizing :border-box;
+    padding:0;
+    box-sizing: border-box;
+}
 
+body{
+    font-family: 'Roboto';
 }
-:root{
- font-size: 10px;
-}
-.container{
-    margin: 40px;
-    border: 2px solid gray;
+.card-container{
+    margin:1rem;
+    width: 400px;
+    height: auto;
     display:flex;
     flex-direction: column;
-    width:400px;
+    border : 2px solid darkgrey;
     box-shadow: 2px 2px 20px 1px mediumpurple;
+    border-radius: 0.5rem;
+    overflow: hidden;
 }
 
 .image img{
     width : 100%;
-    height : auto;
-    height:200px;
-}
 
-h1{
- font-size : 22px;
- margin-bottom: 4px;  
 }
-h2{
-    font-size : 18px;
+.card-header{
+    margin: 0.5rem 0.2rem;
 }
-p{
-    margin : 1rem 0;
-    color: gray;
+.author-name-color{
+    color:darkgrey;
 }
-.share{
+.card-para{
+    margin: 1rem 0.5rem;
+    color: darkgrey;
+}
+.card-links{
+    /* border: solid black; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 1rem 0.5rem; 
 }
 a{
-    text-decoration: none;
+  padding:0.2rem;
+  text-decoration: none;
+  border-radius: 0.2rem;
+}
+a:hover{
+ background-color: lightgray;
 }
 i{
-    color: gray;
+    /* border: solid black; */
+    color:gray;
+    padding: 0.3rem;
+    border-radius: 50%;
 }
-a,i{
-    margin-bottom: 10px;
+i:hover{
+    background-color: lightgray; 
 }
-
-
-
-
+.link-hide{
+    visibility: hidden;
+}
