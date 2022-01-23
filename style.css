@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     margin:0;
     padding:0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body{
@@ -11,7 +12,6 @@ body{
 .card-container{
     margin:1rem;
     width: 400px;
-    height: auto;
     display:flex;
     flex-direction: column;
     border : 2px solid darkgrey;
@@ -26,9 +26,6 @@ body{
 }
 .card-header{
     margin: 0.5rem 0.2rem;
-}
-.author-name-color{
-    color:darkgrey;
 }
 .card-para{
     margin: 1rem 0.5rem;
@@ -57,6 +54,49 @@ i{
 i:hover{
     background-color: lightgray; 
 }
-.link-hide{
+
+.icons-hide{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+.hide{
     visibility: hidden;
+}
+.parent-positioning{
+    position: relative;
+}
+.child-positioning{
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    margin: 1rem;
+}
+.flex-row{
+    display:flex;
+    align-items: center;
+}
+.img-size img{
+    margin: 0;
+    /* width:80%; */
+} 
+/* CARD6 STYLING */
+.flex{
+    font-size:xx-small;
+    display:flex;
+}
+.fontsize{
+    padding: 0.2rem;
+    flex-grow: 1;
+    font-size:12px;
+}
+.hit{
+    width:110px;
+}
+.all-card-variants{
+    /* border: 4px solid black; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
